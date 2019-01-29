@@ -2,7 +2,7 @@
 
 -<widget xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns="http://www.w3.org/ns/widgets" version="0.0.1" id="dk.kea.test">
 
-<name>Bluifruit-2</name>
+<name>Test</name>
 
 <description>A sample app from a phone BLE hardware. </description>
 
