@@ -25,3 +25,10 @@ function multiplication(){
 function insertText(){
 	document.getElementById("newContent").innerHTML="Hej verden!";
 }
+
+function openBrowser(url){
+	//var url = 'https://cordova.apache.org';
+	var target = '_blank';
+	var options = "location = yes"
+	var ref = cordova.InAppBrowser.open(url, target, options);
+}
