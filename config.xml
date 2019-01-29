@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<widget xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns="http://www.w3.org/ns/widgets" version="0.0.1" id="dk.kea.test">
+
+<name>Bluifruit-2</name>
+
+<description>A sample app from a phone BLE hardware. </description>
+
+<author>Lone Østerlund based on an example by Don Coleman:https://github.com/don/cordova-plugin-ble-centralrevideret til IoS af Rico Ghanem </author>
+
+<content src="index.html"/>
+
+
+-<plugin spec="^1.1.4" name="cordova-plugin-ble-central">
+
+<variable name="BLUETOOTH_USAGE_DESCRIPTION" value="Bluetooth development purposes"/>
+
+</plugin>
+
+<plugin spec="~2.0.1" name="cordova-plugin-inappbrowser"/>
+
+<engine spec="~6.4.0" name="android"/>
+
+<engine spec="^4.5.3" name="ios"/>
+
+<preference name="phonegap-version" value="cli-6.5.0"/>
+
+<access origin="*"/>
+
+<allow-intent href="http://*/*"/>
+
+<allow-intent href="https://*/*"/>
+
+<allow-intent href="tel:*"/>
+
+<allow-intent href="sms:*"/>
+
+<allow-intent href="mailto:*"/>
+
+<allow-intent href="geo:*"/>
+
+
+-<platform name="android">
+
+<allow-intent href="market:*"/>
+
+</platform>
+
+
+-<platform name="ios">
+
+<preference name="Orientation" value="all"/>
+
+<preference name="AutoHideSplashScreen" value="false"/>
+
+</platform>
+
+</widget>
